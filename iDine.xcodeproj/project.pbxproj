@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4244E0B29333EAB0024FC00 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4244E0A29333EAB0024FC00 /* ItemDetail.swift */; };
 		B462CDBB2928FACF00DF69B4 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462CDBA2928FACF00DF69B4 /* iDineApp.swift */; };
 		B462CDBD2928FACF00DF69B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462CDBC2928FACF00DF69B4 /* ContentView.swift */; };
 		B462CDBF2928FAD000DF69B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B462CDBE2928FAD000DF69B4 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4244E0A29333EAB0024FC00 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		B462CDB72928FACF00DF69B4 /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B462CDBA2928FACF00DF69B4 /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		B462CDBC2928FACF00DF69B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				B462CDBA2928FACF00DF69B4 /* iDineApp.swift */,
 				B462CDBC2928FACF00DF69B4 /* ContentView.swift */,
 				B462CDD02929084800DF69B4 /* ItemRow.swift */,
+				B4244E0A29333EAB0024FC00 /* ItemDetail.swift */,
 				B462CDBE2928FAD000DF69B4 /* Assets.xcassets */,
 				B462CDC02928FAD000DF69B4 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4244E0B29333EAB0024FC00 /* ItemDetail.swift in Sources */,
 				B462CDBD2928FACF00DF69B4 /* ContentView.swift in Sources */,
 				B462CDBB2928FACF00DF69B4 /* iDineApp.swift in Sources */,
 				B462CDCC2928FBD300DF69B4 /* Order.swift in Sources */,
