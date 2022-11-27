@@ -15,6 +15,7 @@
 		B462CDCC2928FBD300DF69B4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462CDCA2928FBD300DF69B4 /* Order.swift */; };
 		B462CDCD2928FBD300DF69B4 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462CDCB2928FBD300DF69B4 /* Menu.swift */; };
 		B462CDCF2928FBF800DF69B4 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = B462CDCE2928FBF800DF69B4 /* menu.json */; };
+		B462CDD12929084800DF69B4 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462CDD02929084800DF69B4 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B462CDCA2928FBD300DF69B4 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../../../Downloads/idine/Order.swift; sourceTree = "<group>"; };
 		B462CDCB2928FBD300DF69B4 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../Downloads/idine/Menu.swift; sourceTree = "<group>"; };
 		B462CDCE2928FBF800DF69B4 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		B462CDD02929084800DF69B4 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				B462CDCA2928FBD300DF69B4 /* Order.swift */,
 				B462CDBA2928FACF00DF69B4 /* iDineApp.swift */,
 				B462CDBC2928FACF00DF69B4 /* ContentView.swift */,
+				B462CDD02929084800DF69B4 /* ItemRow.swift */,
 				B462CDBE2928FAD000DF69B4 /* Assets.xcassets */,
 				B462CDC02928FAD000DF69B4 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 				B462CDBD2928FACF00DF69B4 /* ContentView.swift in Sources */,
 				B462CDBB2928FACF00DF69B4 /* iDineApp.swift in Sources */,
 				B462CDCC2928FBD300DF69B4 /* Order.swift in Sources */,
+				B462CDD12929084800DF69B4 /* ItemRow.swift in Sources */,
 				B462CDC92928FBA100DF69B4 /* Helper.swift in Sources */,
 				B462CDCD2928FBD300DF69B4 /* Menu.swift in Sources */,
 			);

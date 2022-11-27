@@ -17,12 +17,14 @@ struct ContentView: View {
                 ForEach(menu) { section in
                     Section(header: Text(section.name)) {
                         ForEach(section.items) { item in
-                            Text(item.name)
+//                            Text(item.name)
+                            ItemRow(item: item)
                         }
                     }
                 }
             }
             .navigationTitle("Menu")
+//            .listStyle(GroupedListStyle())
         }
     }
 }
