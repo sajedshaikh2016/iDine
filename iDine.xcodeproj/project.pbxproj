@@ -19,6 +19,7 @@
 		B462CDCD2928FBD300DF69B4 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462CDCB2928FBD300DF69B4 /* Menu.swift */; };
 		B462CDCF2928FBF800DF69B4 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = B462CDCE2928FBF800DF69B4 /* menu.json */; };
 		B462CDD12929084800DF69B4 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462CDD02929084800DF69B4 /* ItemRow.swift */; };
+		B4E1BF77293623A000B8CF40 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1BF76293623A000B8CF40 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B462CDCB2928FBD300DF69B4 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../Downloads/idine/Menu.swift; sourceTree = "<group>"; };
 		B462CDCE2928FBF800DF69B4 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		B462CDD02929084800DF69B4 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		B4E1BF76293623A000B8CF40 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				B462CDD02929084800DF69B4 /* ItemRow.swift */,
 				B4244E0A29333EAB0024FC00 /* ItemDetail.swift */,
 				B4244E0C293353180024FC00 /* OrderView.swift */,
+				B4E1BF76293623A000B8CF40 /* CheckoutView.swift */,
 				B4244E0E2933553A0024FC00 /* MainView.swift */,
 				B462CDBE2928FAD000DF69B4 /* Assets.xcassets */,
 				B462CDC02928FAD000DF69B4 /* Preview Content */,
@@ -164,6 +167,7 @@
 			files = (
 				B4244E0B29333EAB0024FC00 /* ItemDetail.swift in Sources */,
 				B4244E0F2933553A0024FC00 /* MainView.swift in Sources */,
+				B4E1BF77293623A000B8CF40 /* CheckoutView.swift in Sources */,
 				B4244E0D293353180024FC00 /* OrderView.swift in Sources */,
 				B462CDBD2928FACF00DF69B4 /* ContentView.swift in Sources */,
 				B462CDBB2928FACF00DF69B4 /* iDineApp.swift in Sources */,
@@ -307,6 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +341,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
